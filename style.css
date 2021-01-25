@@ -1,0 +1,78 @@
+body {
+    background-image: url('dump.jpg');
+    height: 100%;
+    background-color: rgba(255,255,255,0.8);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#top {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#search {
+    padding-left: 10px;
+    text-align: center;
+    width: 300px;
+    border-radius:25px;
+
+
+}
+
+#list {
+
+    border-collapse: collapse;
+    color: black;
+    list-style-type:none;
+
+}
+#itemDisplay {
+    font-weight: bolder;
+}
+
+#bin1 {
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#bin2 {
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#bin3 {
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#bin4 {
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+list.span {
+    display: inline-block;
+}
+
+#wasteTitle {
+    text-align: center;
+}
+
+.wasteContent {
+    min-height:100px; 
+    border-color:black;
+    border-width: 2px;
+    background-color:lightgrey;
+}
+
+#logo{
+
+    
+    height: 150px;
+    margin: auto;
+
+
+}

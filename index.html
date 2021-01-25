@@ -1,0 +1,71 @@
+<html>
+
+    <head>
+
+        <title>
+            Waste Wizard
+        </title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+
+    <body>
+        <div id="top">
+            <h1>City of Toronto Waste Wizard</h1>
+            <br/>
+            <div style="padding-right:1300px">
+            
+                <br/>
+            </div>
+        </div>
+        <br/>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl">
+                <input id="search" type="text" onkeyup="keySearch()" placeholder="Search for a waste item..."></input>
+                <span><button id="load" style="display:none;" type="button" class="btn btn-info">Load More</button></span>
+                <br/>
+                <br/>
+             <div class="container" id="list">
+                 </div>
+                
+
+            </div>
+            <div class="col-xl">
+                <h3 id="wasteTitle">
+                    My Virtual Waste Room
+                </h3>
+                <div id="trash">
+                    <div><strong>Regular Trash & Curbside Pickup</strong></div>
+                    <div id="bin1" class="wasteContent">
+                    </div>
+                    <br/>
+                    <div><strong>Recycling</strong></div>
+                    <div id="bin2" class="wasteContent">
+                    </div>
+                    <br/>
+                    <div><strong>Organics & Yard Waste</strong></div>
+                    <div id="bin3" class="wasteContent">
+                    </div>
+                    <br/>
+                    <div><strong>Hazardous Waste</strong></div>
+                    <div id="bin4" class="wasteContent">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        
+    </body>
+
+    <script src=main.js></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</html>
+
